@@ -1,0 +1,24 @@
+.DS_Store
+node_modules/
+/dist/
+/build/
+/flat/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/e2e/reports/
+selenium-debug.log
+config.json
+yarn.lock
+
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+.serverless/
+.env

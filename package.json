@@ -1,0 +1,31 @@
+{
+  "name": "pla",
+  "version": "1.0.0",
+  "description": "This is contract of PlayDapp Token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "PlayDapp",
+  "license": "MIT",
+  "homepage": "https://playdapp.io",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.0",
+    "@truffle/hdwallet-provider": "^1.0.33",
+    "bignumber.js": "^9.0.0",
+    "dotenv": "^8.2.0",
+    "solc": "0.5.15",
+    "@openzeppelin/test-helpers": "^0.5.4",
+    "web3": "^1.2.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "@openzeppelin/test-helpers": "^0.5.5",
+    "truffle-flattener": "^1.4.2"
+  }
+}
